@@ -8,5 +8,6 @@ sentence-transformers>=3.0,<7
 kagglehub>=0.3,<2
 openai>=1.66,<4          # cần reasoning_effort / max_completion_tokens
 anthropic>=2.5,<3        # chỉ khi LLM_PROVIDER = "anthropic"
+google-genai>=1.0,<3 
 pytest>=8,<10
 jupyter
